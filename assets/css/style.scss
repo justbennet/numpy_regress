@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "{{ site.theme }}"
+
 code {
   font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   font-size:13px;
@@ -25,7 +27,4 @@ pre {
     padding: 0px;
   }
 }
-
-@import "{{ site.theme }}"
-
 
