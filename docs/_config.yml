@@ -1,3 +1,4 @@
-theme: jekyll-theme-leap-day
 title: [pyregress]
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "light"
 description: [A NumPy tutorial using regression]
