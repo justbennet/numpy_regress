@@ -40,7 +40,7 @@ If we look the formula up in a statistics book or online, we will find that the 
 
 **b** = (**X**'**X**)<sup>-1</sup>**X'Y**
 
-Note that **X**'**X** means '**X** transpose' times **X** and the transpose is sometimes indicated by **X**<sup>`T`</sup>.  Multiplication with matrices can be tricky because there is more than one meaning for "multiply" and because, usually, **A** * **B** does _not_ equal **B** * **A** the way it does with numbers.  You'll sometimes see or hear something about "premultiply" or "postmultiply" and those are used to make clear which comes first.
+Note that **X**'**X** means '**X** transpose' times **X** and the transpose is sometimes indicated by **X**<sup>T</sup>.  Multiplication with matrices can be tricky because there is more than one meaning for "multiply" and because, usually, **A** * **B** does _not_ equal **B** * **A** the way it does with numbers.  You'll sometimes see or hear something about "premultiply" or "postmultiply" and those are used to make clear which comes first.
 
 That will produce a regression equation, into which we can plug each value of _x_ from the rows of **X** to produce a _predicted value_ value for _y_, which is usually different from the actual value of _y_ from each of the rows of **Y**.  The estimated value for **Y** is calculated as
 
